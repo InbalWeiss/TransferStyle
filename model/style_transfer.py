@@ -52,9 +52,12 @@ keeping the generated image close enough to the original one.
 from __future__ import print_function
 from os import environ
 import os
+import sys
+import subprocess
 from keras.preprocessing.image import load_img, img_to_array
 # from scipy.misc import imsave
 #import imageio
+subprocess.run([sys.executable,'-m', 'pip', 'install', 'matplotlib'])
 from matplotlib.pyplot import imsave
 import numpy as np
 from scipy.optimize import fmin_l_bfgs_b
