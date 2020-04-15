@@ -2,11 +2,7 @@
 
 Run the script with:
 ```
-python neural_style_transfer.py path_to_your_base_image.jpg path_to_your_reference.jpg prefix_for_results
-```
-e.g.:
-```
-python neural_style_transfer.py img/tuebingen.jpg img/starry_night.jpg results/my_result
+python style_transfer.py path_to_your_base_image.jpg path_to_your_reference.jpg prefix_for_results
 ```
 Optional parameters:
 ```
@@ -18,7 +14,6 @@ Optional parameters:
 
 It is preferable to run this script on GPU, for speed.
 
-Example result: https://twitter.com/fchollet/status/686631033085677568
 
 # Details
 
