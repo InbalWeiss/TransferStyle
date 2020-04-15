@@ -24,7 +24,7 @@ In IBM Cloud, click the hamburger menu and the `Resource List`. Under Services, 
 * Click `Create`.
 #### 2. Load the notebook
 * Add a new notebook. Click `Add to project` and then `Notebook`.
-* Choose new notebook from URL. Give the notebook a name and copy the URL (https://github.com)
+* Choose new notebook from URL. Give the notebook a name and copy the URL (https://github.com/lkarlason/TransferStyle/blob/master/notebook/StyleTransfer.ipynb)
   
 #### 3. Setup service credentials
 ##### 3.1. Cloud Object Storage
